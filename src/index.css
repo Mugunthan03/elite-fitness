@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body
+{
+    font-family: 'Red Hat Display', sans-serif;
+}
+#title
+{
+    -webkit-text-stroke:1px orange;
+    color: transparent;
+    font-family: "Recursive", sans-serif;
+}
+
+.text-shadow-orange {
+    position: relative;
+    color: white;
+    font-weight: 800;
+    text-shadow:
+      1px 1px 0 #FFA500, 
+      2px 2px 0 #FFA500,
+      3px 3px 0 #FFA500,
+      4px 4px 0 #FFA500,
+      5px 5px 0 #FFA500;
+}
+#why
+{
+    font-family: "Recursive", sans-serif;
+}
+.sh
+{
+    box-shadow: rgba(246, 244, 244, 0.4) 0px 2px 4px, rgba(243, 198, 198, 0.3) 0px 7px 13px -3px, rgba(235, 62, 62, 0.2) 0px -3px 0px inset;
+}
+.toast-custom-style {
+    font-size: 14px; 
+    width: 260px;
+}
+
+/* Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(45deg, #FFA500, #000);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #000, #FFA500);
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #FF8C00, #333);
+}
+
+/* Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: linear-gradient(45deg, #000, #FFA500) linear-gradient(45deg, #FFA500, #000);
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+html::-webkit-scrollbar-track {
+    background: linear-gradient(45deg, #FFA500, #000);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #000, #FFA500);
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #FF8C00, #333);
+}
