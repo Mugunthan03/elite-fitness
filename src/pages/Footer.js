@@ -2,7 +2,7 @@ import React from 'react'
 import { FaFacebook , FaTwitter } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
-import gym from '../assets/footer/banner4.jpg'
+import gym from '../assets/footer/footerbanner.jpg'
 import logo from '../assets/logo.png'
 import {Link} from 'react-router-dom'
 

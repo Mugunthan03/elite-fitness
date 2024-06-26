@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import one from '../assets/5.jpg';
+import one from '../assets/registerbanner.jpg';
 import { useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../services/firebase';
@@ -87,7 +87,7 @@ const Register = ({ setShowRegister }) => {
         </motion.button>
         <div className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-1/2 relative overflow-hidden">
-            <img src={one} alt="Register" className="w-full h-64 lg:h-full object-cover transform scale-105 transition-transform duration-500 ease-in-out" />
+            <img src={one} alt="Register" loading='lazy' className="w-full h-64 lg:h-full object-cover transform scale-105 transition-transform duration-500 ease-in-out" />
             <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
           </div>
           <div className="w-full lg:w-1/2 p-8 flex flex-col justify-center">

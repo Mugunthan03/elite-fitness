@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import one from '../assets/chooseus/4.jpg';
+import one from '../assets/chooseus/choosebanner.jpg';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import { motion } from "framer-motion";

@@ -1,5 +1,5 @@
 import React from 'react';
-import one from '../assets/offer/2.jpg';
+import one from '../assets/offer/offerbanner.jpg';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -23,7 +23,7 @@ const Offer = () => {
 
   return (
     <div className='bg-cover bg-top w-full h-screen ' style={{ backgroundImage: `url(${one})` }}>
-      <div className='bg-black bg-opacity-50 w-full h-full flex flex-col justify-center pl-10 gap-6'>
+      <div className='bg-black bg-opacity-40 w-full h-full flex flex-col justify-center pl-10 gap-6'>
         <motion.h4
         initial={{ opacity: 0, y: -500 }}
         animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -500 }}  
