@@ -9,7 +9,7 @@ import { useInView } from 'react-intersection-observer';
 const Choose = () => {
   const [visible, setVisible] = useState(false); 
   const { ref, inView } = useInView({
-    threshold: 0.2, // Trigger when 50% of the component is visible
+    threshold: 0.5, // Trigger when 50% of the component is visible
     triggerOnce: true // Only trigger once
   }); 
 

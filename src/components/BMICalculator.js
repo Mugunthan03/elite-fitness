@@ -130,7 +130,7 @@ const BMICalculator = () => {
               transition={{ duration: 1, ease: 'easeOut', delay: 1.5 }}
             >
               <input
-                className='border-2 border-gray-400 p-2 md:p-3 bg-transparent mb-3'
+                className='border-2 border-gray-400 p-2 md:p-3 bg-transparent mb-3 '
                 value={weight}
                 required
                 onChange={(e) => setWeight(e.target.value)}
@@ -144,7 +144,7 @@ const BMICalculator = () => {
               transition={{ duration: 1, ease: 'easeOut', delay: 1.7 }}
             >
               <input
-                className='border-2 border-gray-400 p-2 md:p-3 bg-transparent mb-3'
+                className='border-2 border-gray-400 p-2 md:p-3 bg-transparent mb-3 '
                 value={height}
                 required
                 onChange={(e) => setHeight(e.target.value)}
@@ -159,7 +159,7 @@ const BMICalculator = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={bmiInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 1, ease: 'easeOut', delay: 2 }}
-            className='w-fit bg-orange-200 font-semibold text-sm md:text-lg text-black px-3 py-2'
+            className='w-fit bg-orange-200  duration-300 transition-all hover:rounded-md font-semibold text-sm md:text-lg text-black px-3 py-2'
             onClick={calculate}
           >
             Calculate

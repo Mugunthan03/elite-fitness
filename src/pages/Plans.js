@@ -3,6 +3,7 @@ import one from '../assets/w.png';
 import two from '../assets/banner3.jpg';
 import offer from '../assets/50.png';
 import { motion } from 'framer-motion';
+import {Link} from 'react-router-dom'
 
 const plansData = [
   {
@@ -88,8 +89,8 @@ const Plans = () => {
                   <p className='text-gray-500 text-base md:text-lg lg:text-sm xl:text-xl font-semibold'>{feature}</p>
                 </motion.div>
               ))}
-              <motion.button
-                className={`text-base md:text-xl p-3 rounded-md font-mono font-bold ${active === index ? 'bg-white text-black' : 'bg-black text-white'}`}
+              <Link smooth duration={500} to="/contact"><motion.button
+                className={`text-base md:text-xl p-3 w-full rounded-md font-mono font-bold ${active === index ? 'bg-white text-black' : 'bg-black text-white'}`}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 initial={{ y: -20, opacity: 0, scale: 0.8 }}
@@ -97,7 +98,7 @@ const Plans = () => {
                 transition={{ delay: 1 + index * 0.3 + 1.5, duration: 0.5, type: 'spring' }} // Adjusting delay for button animation
               >
                 Join now
-              </motion.button>
+              </motion.button></Link>
             </div>
           </motion.div>
         ))}
