@@ -32,6 +32,7 @@ Elite Fitness is a comprehensive gym website designed to provide users with info
 The Home page provides an overview of the gym, showcasing its unique selling points and the benefits of joining. It includes:
 - **Features:** Highlights of the gym's offerings, such as professional trainers, modern equipment, and diet plans.
 - **Why Choose Us:** Reasons to choose Elite Fitness, including awards, programs, and success stories.
+  https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home1.png
 
 ### About Page
 The About page details the mission, vision, and values of Elite Fitness. It provides users with background information about the gym, its history, and its commitment to helping members achieve their fitness goals. Additionally, it features:
