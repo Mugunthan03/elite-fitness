@@ -44,7 +44,7 @@ The About page details the mission, vision, and values of Elite Fitness. It prov
 - **Professional Trainer Images:** Photos and bios of the trainers.
 - **Client Testimonials:** Feedback and success stories from clients.
 
-   ![Home](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home4.png)
+   ![About](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home4.png)
 
 ### Plans Page
 The Plans page outlines the various membership options available. It includes pricing details, benefits of each plan, and information on how to sign up. The plans offered are:
@@ -52,17 +52,17 @@ The Plans page outlines the various membership options available. It includes pr
 - **Standard:** Additional benefits on top of the basic plan.
 - **Premium:** Full access to all gym facilities and premium services.
 
-   ![Home](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home5.png)
+   ![Plans](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home5.png)
 
 ### Gym Gears Page
 The Gym Gears page displays the different equipment and accessories available at the gym. It helps users understand the resources they will have access to as members and allows them to purchase gym gear.
 
- ![Home](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home6.png)
+ ![Gym](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home6.png)
 
 ### Nutrients Page
 The Nutrients page offers nutritional advice and tips to help members complement their workout routines with a healthy diet. It also includes nutritional products available for purchase, such as supplements and health foods.
 
- ![Home](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home7.png)
+ ![Nutrients](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home7.png)
 
 ### Contact Page
 The Contact page features a form for users to submit inquiries or feedback. It provides a direct line of communication between potential or current members and the gym’s staff. The page also includes:
@@ -70,9 +70,9 @@ The Contact page features a form for users to submit inquiries or feedback. It p
 - **Map:** An interactive map for routing.
 - **Contact Form:** A form for users to send messages or inquiries.
 
-   ![Home](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home8.png)
-   ![Home](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home9.png)
-   ![Home](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home10.png)
+   ![Contact](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home8.png)
+   ![Contact](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home9.png)
+   ![Contact](https://github.com/Mugunthan03/elite-fitness/blob/8caf69ec0c08c822fd000f1188d5855238223ebc/home10.png)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with your improvements.
